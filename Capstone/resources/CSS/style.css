@@ -1,0 +1,433 @@
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav img{
+  display: none;
+}
+
+.logo img{
+  display: inline;
+}
+
+.menu{
+  display: flex;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+li{
+  margin-right: 1rem;
+  list-style: none;
+  overflow-x: hidden;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu a{
+  color: #494444;
+}
+
+.menu a, .newsItemFacts a, .copyright a:visited {
+    color: purple;
+}
+
+.logo img{
+  height: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 0.75rem;
+}
+
+.logo span{
+  color:#A9A9A9;
+}
+
+.learn{
+  display: flex;
+  background-color: #e9e9e9;
+  align-items: center;
+}
+
+.photo{
+  width: 60%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.photo img{
+  max-width: 100%;
+}
+
+.covertext{
+  display: flex;
+  flex-direction: column;
+  flex:3;
+  padding-right: 1.5rem;
+  margin-left: 1.5rem;
+  color: #494444;
+}
+
+.covertext h3{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.covertext h6{
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.button{
+  display: flex;
+  background-color: #494444;;
+  color: #e9e9e9;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+}
+
+.button:hover{
+  background-color:#0099cc;
+}
+
+.information{
+  display: flex;
+}
+
+.practice{
+  flex: 6;
+  padding-bottom: 0;
+  color: #494444;
+}
+
+.practice img{
+  padding-top: 2rem;
+  max-height: 300px;
+  max-width: 100%;
+}
+
+.newsItems{
+  flex: 4;
+  padding:0;
+  padding-bottom: 1.5rem;
+}
+
+.newsItem{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  display: flex;
+}
+
+.newsItem img{
+  max-width: 100%;
+  padding: 0;
+}
+
+.newsItemFacts{
+  margin-left: 1rem;
+  flex: 6.5;
+  display: flex;
+  flex-direction: column;
+  color: #494444;
+}
+
+.newsItemFacts p, .newsItemFacts a{
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.imageContainer{
+  display: flex;
+  flex: 3.5;
+  align-items:center;
+}
+
+.imageContainer img{
+  max-width:100%;
+  max-height:100%;
+}
+
+.curriculum{
+  display: flex;
+  flex-direction: column;
+  background-color: #e9e9e9;
+  padding-bottom: 0.5rem;
+  align-items: center;
+  color: #494444;
+}
+
+.curriculum h3{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.line{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.course{
+  background-color: white;
+  flex:3;
+  max-height:100%;
+  margin: 0.5rem;
+}
+
+.course a{
+  display: none;
+}
+
+.course img{
+  max-width: 100%;
+}
+
+.course h4, .course span, .course p{
+  padding-left: 1rem;
+}
+
+.thesis{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #494444;
+}
+
+.thesis h3{
+  font-size: 1.5rem;
+}
+
+.thesisExhibit{
+  display: flex;
+}
+
+.thesisVideo{
+  flex:6;
+}
+
+.thesisVideo video{
+  width: 100%;
+}
+
+.thesisVideo p{
+  font-size: 0.8rem;
+}
+
+.thesisExamples{
+  flex:4;
+}
+
+.thesisItems{
+  flex: 4;
+  padding:0;
+  padding-bottom: 1.5rem;
+}
+
+.thesisItem{
+  margin-top: 0.25rem;
+  margin-left: 2rem;
+  display: flex;
+}
+
+.thesisItem img{
+  max-width: 100%;
+  padding: 0;
+}
+
+.thesisItemFacts{
+  margin-left: 1rem;
+  flex: 6.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thesisItemFacts p, .thesisItemFacts a, .thesisItemFacts h4{
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul{
+  margin-top:0;
+}
+
+.copyright span, .copyright a{
+  color:#A9A9A9;
+  font-size: 0.7rem;
+}
+
+ @media screen and (max-width:500px){
+
+   nav{
+     justify-content: center;
+   }
+
+   .logo{
+     display:none;
+   }
+
+    ul{
+      padding-left:0;
+    }
+
+   .menu span{
+     display: none;
+   }
+
+   .menu img{
+     display:inline-block;
+   }
+
+   .learn{
+     flex-direction: column;
+   }
+
+   .photo{
+     width: 100%;
+     padding:0;
+   }
+
+   .covertext{
+     max-width:100%;
+     justify-content: center;
+     padding-left: 2rem;
+     flex-wrap: wrap;
+   }
+
+   .practice{
+     display: none;
+   }
+
+    .newsItem{
+      flex-direction: column;
+      margin-left:1rem;
+    }
+
+    .curriculum{
+      background-color: white;
+    }
+
+    .line{
+      flex-direction: column;
+      width:100%;
+      margin:0;
+    }
+
+    .line img, .line span, .line p{
+      display: none;
+    }
+
+    .course{
+      max-width:100%;
+      align-content: center;
+      margin:0;
+    }
+
+    .course h4{
+      display: none;
+    }
+
+    .course a{
+      display:block;
+      max-width: 100%;
+      background-color: #e9e9e9;
+      padding-top:1rem;
+      padding-bottom: 1.5rem;
+      padding-left:2rem;
+      margin:0.25rem;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .thesis h3{
+      margin-top:1.75rem;
+      margin-bottom: 1rem;
+      font-size:1.5rem;
+    }
+
+    .thesisExamples{
+      display: none;
+    }
+
+    .thesis{
+      align-items:center;
+    }
+
+    .thesisVideo h4, .thesisVideo p{
+      display: none;
+    }
+
+    .thesisVideo{
+      margin-bottom: 1.5rem;
+    }
+
+    footer{
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .copyright li{
+      display: none;
+    }
+  }
+
+  @media screen and (min-width:481px) and (max-width:715px){
+    .information p, .course p{
+      font-size: 0.8rem;
+    }
+
+    .thesisItemFacts h4, h5{
+      font-size: 0.8rem;
+    }
+  }
+
+  @media screen and (min-width:600px) and (max-width:715px){
+    .menu li{
+      font-size: 0.8rem;
+      margin: 0.1rem;
+    }
+  }
+
+  @media screen and (min-width:481px) and (max-width:600px){
+    .menu li{
+      font-size: 0.7rem;
+      margin: 0.1rem;
+    }
+  }
